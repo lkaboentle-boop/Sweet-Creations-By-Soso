@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Add the live sitemap URL after publishing the site.

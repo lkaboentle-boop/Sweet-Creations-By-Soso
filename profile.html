@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View and update your Sweet Creations By Soso demo customer profile and profile picture.">
+    <meta name="author" content="Sweet Creations By Soso">
+    <meta name="keywords" content="Sweet Creations By Soso, Rustenburg bakery, homemade baked goods, wholesale orders, special orders, product enquiries, customer profile">
+    
+    <title>Customer Profile | Sweet Creations By Soso</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="_images/_logo.jpg" type="image/jpeg">
+</head>
+<body>
+
+        <!-- Header Section -->
+        <header>
+            <div class="logo">
+                <img src="_images/_logo.jpg" height="150" width="150" alt="Sweet Creations Logo"> </div>
+                <h1>Sweet Creations By Soso</h1>
+
+                <p> Homemade baked goods made with love</p>
+
+
+            <nav>
+                    <a href="index.html">Home</a> |
+                    <a href="about.html">About</a> |
+                    <a href="products.html">Products</a> |
+                    <a href="enquiry.html"> Enquiries</a> |
+                    <a href="contact.html">Contact</a> |
+                    <a href="profile.html">Profile</a> 
+            </nav>
+        </header>
+
+<main class="profile-page">
+
+    <div class="profile-title">
+
+        <h2>My Profile</h2>
+        
+    </div>
+
+    <div class="profile-layout">
+
+        <div class="profile-column">
+            <div class="profile-card">
+                <div class="profile-pictureContainer">
+                    <img id="profileImage" src="Image/default-profile.png" alt="Profile Picture" class="profile-picture">
+
+                    <label for="profileUpload" class="upload-button">
+                        Change Photo
+                    </label>
+
+                    <input 
+                    type="file" id="profileUpload" accept="image/*" hidden>
+                </div>
+
+                <h3 id="profileName">Kaboentle Lesejane</h3>
+
+                <button class="submit-btn" onClick="editProfile()">
+                    Edit Profile
+                </button>
+            </div>
+
+            <div class="account-card">
+                <h3>Account Settings</h3>
+
+                <button class="submit-btn">Change Password</button>
+
+                <button class="submit-btn" onClick="Logout()">
+                    <a href="login.html" class="submit-btn">Log Out</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="information-card">
+            <div class="info-row">
+                <h3>Personal Information</h3>
+
+                <div>
+                    <label>Full Name</label>
+                    <p id="name">Kaboentle Lesejane</p>
+
+                    <label>Email Address</label>
+                    <p id="email">lkaboentle@icloud.com</p>
+
+                    <label>Phone Number</label>
+                    <p id="phone">066 578 6176</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+            <div class="footer-container">
+
+                <div>
+                    <h3> Sweet Creations By Soso</h3>
+
+                    <p>
+                        Baking sweet memories for families and events across Rustenburg. Taste the love in every bite of our homemade jam tarts and biscuits.
+                    </p>
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4> Get In Touch</h4>
+
+                    <p> 📞 073 496 3215</p>
+                    <p> 📧 info@sweetcreationsbysoso.co.za</p>
+                    <p> 📍 Rustenburg, South Africa</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+            <p>Sweet Creations By Soso | Kagiso Moruti &copy; 2026 All Right Reserved.</p>
+            </div>
+        </footer>
+        <script src="js/script.js" defer></script>
+</body>
+</html>

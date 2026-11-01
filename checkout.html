@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review your Sweet Creations By Soso order and leave your contact details to confirm it with the bakery.">
+    <meta name="author" content="Sweet Creations By Soso">
+    <meta name="keywords" content="Sweet Creations By Soso, Rustenburg bakery, homemade baked goods, wholesale orders, special orders, product enquiries, order confirmation">
+    <title>Checkout | Sweet Creations By Soso</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="_images/_logo.jpg" type="image/jpeg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="_images/_logo.jpg" height="150" width="150" alt="Sweet Creations By Soso Logo">
+        </div>
+        <h1>Sweet Creations By Soso </h1>
+        <p>Homemade baked goods made with love</p>
+
+        <div class="header-buttons">
+            <a href="cart.html">Cart 🛒</a>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="products.html">Products</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="enquiry-section checkout-section">
+            <div class="enquiry-info">
+                <p class="small-title">Almost there</p>
+                <h2>Checkout</h2>
+                <p>Review your treats and leave your contact details with your order request and will get back to you regarding your order.</p>
+                <p>Please contact the bakery directly to confirm your order.</p>
+            </div>
+
+            <div class="enquiry-form checkout-card">
+                <div class="checkout-summary">
+                    <h2>Your order</h2>
+                    <div id="checkoutItems" aria-live="polite"></div>
+                    <p class="checkout-total">Total <strong id="checkoutTotal">R0.00</strong></p>
+                </div>
+
+                <form id="checkoutForm">
+                    <h2>Contact details</h2>
+                    <div class="form-group">
+                        <label for="checkoutName">Full name</label>
+                        <input id="checkoutName" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutEmail">Email address</label>
+                        <input id="checkoutEmail" name="email" type="email" autocomplete="email" maxlength="254" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutPhone">Phone number</label>
+                        <input id="checkoutPhone" name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="[+\(\)0-9\s\-]{7,20}" minlength="7" maxlength="20" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkoutNotes">Order notes <span>(optional)</span></label>
+                        <textarea id="checkoutNotes" name="notes" rows="4" maxlength="1000" placeholder="Anything you'd like us to know?"></textarea>
+                    </div>
+                    <button class="submit-btn" id="placeOrderButton" type="submit">Send order request</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>Sweet Creations By Soso</h3>
+                <p>Baking sweet memories for families and events across Rustenburg. Taste the love in every bite of our homemade jam tarts and biscuits.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Get In Touch</h4>
+                <p> 📞 073 496 3215</p>
+                <p> 📧 info@sweetcreationsbysoso.co.za</p>
+                <p> 📍 Rustenburg, South Africa</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Sweet Creations By Soso | Kagiso Moruti &copy; 2026 All Right Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

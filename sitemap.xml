@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://www.example.com with the real published domain before submitting this sitemap to search engines. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/index.html</loc></url>
+  <url><loc>https://www.example.com/about.html</loc></url>
+  <url><loc>https://www.example.com/products.html</loc></url>
+  <url><loc>https://www.example.com/contact.html</loc></url>
+  <url><loc>https://www.example.com/enquiry.html</loc></url>
+</urlset>
