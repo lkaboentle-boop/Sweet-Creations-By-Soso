@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-# Add the live sitemap URL after publishing the site.
+# This is the live sitemap URL that is published.
+Sitemap: https://thesweetcreationsbysoso.netlify.app
