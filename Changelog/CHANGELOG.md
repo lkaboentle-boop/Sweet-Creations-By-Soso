@@ -91,10 +91,10 @@ All notable changes to the Sweet Creations By Soso website.
 
 ## [Unreleased] - 2026 - 10 - 01
 
-## Fixed
+### Fixed
 - Responsive layout for the profile and home page
 
-## Changed
+### Changed
 - The structure of the profile and the layout
 
 ## [2026-10-29] — JavaScript functionality
