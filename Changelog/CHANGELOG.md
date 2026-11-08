@@ -97,4 +97,22 @@ All notable changes to the Sweet Creations By Soso website.
 ## Changed
 - The structure of the profile and the layout
 
+## [2026-10-29] — JavaScript functionality
+
+### Added
+- Added a shopping cart that saves items in local storage, updates the cart count, adjusts quantities, removes items, and calculates totals.
+- Added checkout order requests with cart details, a reference number, and submission timestamp.
+- Added product search and sorting by price or name, with a visible product count.
+- Added signup and login, plus profile editing, logout, and profile photo upload.
+- Added contact and enquiry form submissions with confirmation messages.
+
+### Fixed
+- Added validation for signup details, password confirmation, phone numbers, enquiry messages, and profile image type and size.
+- Added feedback notifications for successful actions and validation errors.
+
+## [2026-11-02] - Published the website
+
+### Added
+- published the website on the Netlify hosting
+
 
