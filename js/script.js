@@ -618,7 +618,7 @@
   loadProfile();
 })();
 
-// Where i got information about the jQuery
+// Where i got information and guidance about the jQuery
 
 /* keybrains.io (2026), Available at: https://keybrains.io/jquery-tutorial/ (Accessed: 28 November 2026)*/
 /* jQuery Learning Center(2026), Available at: https://learn.jquery.com/about-jquery/how-jquery-works/ (Accessed: 28 October 2026)*/
