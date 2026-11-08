@@ -96,30 +96,21 @@ Shared responsive rules in `css/styles.css` cover every page, with tablet adjust
 
 GetEmoji(2026), Available at: https://getemoji.com/ (Accessed: 24 September 2026)
 
+## JavaScript functionality 
+
+- **Shopping cart:** add products, persist cart contents , show a cart item count, increase/decrease quantities, remove products, calculate totals, and start a checkout enquiry.
 
 
-
-
-
-
-## JavaScript functionality added (Formative 2)
-
-The shared `js/app.js` file adds interactive behaviour across the website:
-
-- **Shopping cart:** add products, persist cart contents in `localStorage`, show a cart item count, increase/decrease quantities, remove products, calculate totals, and start a checkout enquiry.
 - **Product browsing:** search products by name/description and sort by featured order, price, or name.
-- **Forms:** validate signup details, confirm password matches, validate email/phone, and show feedback for contact/enquiry submissions. Demo form submissions are stored locally in the browser.
-- **Account demo:** signup/login and profile details are stored locally; the profile can be edited and a profile image preview saved.
+
+- **Forms:** validate signup details, confirm password matches, validate email/phone, and show feedback for contact/enquiry submissions.
+
+- **Profile:** signup/login and profile details are stored locally; the profile can be edited and a profile image preview saved.
+
 - **Feedback:** accessible status messages confirm user actions.
 
-### How to test
-
-1. Open `index.html` in a browser (or use the VS Code Live Server extension).
-2. Visit Products, add items to cart, and open Cart to test quantity changes and totals.
-3. Create an account using an email and a password of at least 8 characters, then test login and profile editing.
-4. Submit a contact message or enquiry and observe the confirmation message.
-
-**Important:** this is a front-end coursework demonstration. `localStorage` is browser-specific and can be inspected by users; it is not secure authentication, and forms do not send data to the bakery or a server. A production website needs a secure backend, password hashing, server-side validation, and a real order/contact delivery process.
+### The hosting of the website
+https://thesweetcreationsbysoso.netlify.app
 
 
 ## SEO and form-validation improvements
@@ -127,6 +118,14 @@ The shared `js/app.js` file adds interactive behaviour across the website:
 - Added a unique page title and meta description to every HTML page, plus responsive viewport metadata and a consistent language declaration.
 - Added Open Graph metadata and Bakery structured data to the homepage. Verify business details before publishing.
 - Added meaningful page titles, corrected the products-page spelling, and improved form labels, autocomplete attributes, input types, length limits, and constraints.
-- Added `robots.txt` and `sitemap.xml`. Before launch, replace sitemap relative paths with the full public HTTPS URLs for the deployed site. Do not add a canonical URL until the final domain is known.
-- JavaScript validates full names, email, telephone number, quantity, password confirmation, terms acceptance, and message length. Browser `localStorage` is demo-only; forms do not send messages to the bakery and localStorage authentication is not suitable for real customer accounts. Use a secure backend for production.
-- SEO improvements cannot guarantee search ranking; publish on a crawlable domain, use HTTPS, optimize image sizes, and register the live site with Google Search Console.
+- Added `robots.txt` and `sitemap.xml`. 
+- JavaScript validates full names, email, telephone number, quantity, password confirmation, terms acceptance, and message length. 
+
+
+
+
+
+
+
+
+egister the live site with Google Search Console.
